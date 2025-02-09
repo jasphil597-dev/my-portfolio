@@ -28,7 +28,6 @@ body {
 
 #root,
 #app {
-	/* If using React or Vue */
 	display: flex;
 	flex-direction: column;
 	width: 100%;
@@ -38,18 +37,18 @@ body {
 body {
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh; /* Ensures full viewport height */
+	min-height: 100vh;
 }
 
 main {
-	flex-grow: 1; /* Allows content to fill remaining space */
+	flex-grow: 1;
 }
 
 /* Center content properly */
 .container {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between; /* Ensures content fills entire height */
+	justify-content: space-between;
 	align-items: center;
 	min-height: 100vh;
 	width: 100%;
